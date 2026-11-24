@@ -1,0 +1,18 @@
+# Web framework & ASGI server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Google Gemini API SDK chính thức (thay thế google-generativeai đã ngừng hỗ trợ)
+google-genai>=1.0.0
+
+# HTTP client cho gọi Wikipedia tiếng Việt API
+httpx>=0.27.0
+
+# Đọc biến môi trường từ file .env
+python-dotenv>=1.0.0
+
+# Dữ liệu múi giờ IANA (đảm bảo Asia/Ho_Chi_Minh hoạt động tốt cả trên Windows)
+tzdata>=2024.1
+
+# Kiểm thử tự động (tuỳ chọn cho môi trường phát triển)
+pytest>=8.0.0
